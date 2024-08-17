@@ -9,7 +9,7 @@
 }
 .avisos{
     font-size: 0.8rem;
-    color: rgb(253, 252, 252);
+    color: rgb(236, 187, 187);
     margin: 0% 7%;
     display: flex;
     justify-content: left;
@@ -87,7 +87,7 @@ button:hover{
     border: #440827 solid 2px;
 }
 .texto-inicial{
-    width: 43rem;
+    width: 41rem;
     height: 24rem;
     font-family: var(--fonte-place);
     color: var(--cor-da-fonte);
@@ -99,12 +99,13 @@ button:hover{
     border-style: none; 
     border-color: Transparent; 
     outline: none;
+    overflow: auto;
 }
 .espaco-resultado{
     display: none;
 }
 #campo-resultado{
-    width: 22rem;
+    width: 24rem;
     height: 24rem;
     border-radius: 0.8rem;
     font-family:  var(--fonte-place);

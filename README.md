@@ -1,8 +1,8 @@
-# 💫 sobre:
-🔍É um projeto onde encriptamos e decodificamos mensagens.
+# 💫 sobre o Projeto de modo geral:
+🔍É um projeto onde encriptamos e decodificamos mensagens. Possui um cmapo para digitar o texto e 2 botões um de codificar e decodificar, além disso possue outro campo de área onde sai o resultado da codificação e decodificação dos textos, por fim logo abaixo do segundo campo existem um botão de copiar e um de limpar o texto.
 
 
-# 💫 Campo de texto com 2 botões de codificar e decodificar:
+# 💫 Algumas imagens do Projeto
 
 <img src="/img/Captura de tela 2024-08-16 115103.png" alt="">
 
