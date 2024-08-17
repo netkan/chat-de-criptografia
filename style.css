@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
@@ -8,7 +7,6 @@
     --cor-da-fonte: rgb(255, 255, 255);
     --botaos: "Fira Sans", sans-serif;
 }
-
 .avisos{
     font-size: 0.8rem;
     color: rgb(253, 252, 252);
@@ -20,19 +18,15 @@ body{
     background-image: linear-gradient(#1D2B53, #7E2553);
     border: 1px solid transparent;
     margin: 0%;
-    
 }
-
 img{
     width: 3.8%;
     height: 1%;
 }
-
 .place{
     width: 16.5rem;
     height: 14rem;
 }
-
 header{
     margin: 1% 0% 0% 3%;
     display: flex;
@@ -42,12 +36,10 @@ header{
     font-size: 1.3rem;
     color: rgb(228, 117, 222);
 }
-
 .ps:hover{
     color: rgb(49, 49, 238);
     cursor: pointer;
 }
-
 main{
     display: flex;
     justify-content: center;
@@ -55,21 +47,19 @@ main{
     flex-direction: column;
     margin-top: 0.5%;
 }
-
 .texto{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5rem;
+    margin-right: 3%;
 }
-
 .texto-2{
     display: flex;
     justify-content: space-between;
     margin: 0% 8% 0% 0%;
     align-items: center;
 }  
-
 .botoes{
     margin: 0% 0%  0% 10%;
     display: flex;
@@ -92,12 +82,10 @@ button{
     font-family: var(--botaos);
     font-style: normal;
 }
-
 button:hover{
     color: rgb(61, 19, 73);
     border: #440827 solid 2px;
 }
-
 .texto-inicial{
     width: 43rem;
     height: 24rem;
@@ -112,8 +100,11 @@ button:hover{
     border-color: Transparent; 
     outline: none;
 }
-.caixa-resultado{
-    width: 20rem;
+.espaco-resultado{
+    display: none;
+}
+#campo-resultado{
+    width: 22rem;
     height: 24rem;
     border-radius: 0.8rem;
     font-family:  var(--fonte-place);
@@ -121,17 +112,29 @@ button:hover{
     font-size: 1rem;
     background-color: rgba(35, 5, 46, 0.5); 
     overflow: auto;
-    padding: 1% 4%;
+    padding: 1% 8%;
+    outline: none;
 }
-
-.imagem{
-    gap: 1.2rem;
+.imagem-texto{
+    width: 21rem;
+    height: 24rem;
+    border-radius: 0.8rem;
+    font-family:  var(--fonte-place);
+    color: var(--cor-da-fonte);
+    font-size: 1rem;
+    background-color: rgba(35, 5, 46, 0.5); 
+    padding: 1% 8%;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
+    justify-content: center;
+    
 }
-
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 2rem;
+}
 #texto-inicial::placeholder{
     color: var(--cor-da-fonte);
     padding: 1.4rem;
