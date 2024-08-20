@@ -86,7 +86,7 @@ button:hover{
     color: rgb(61, 19, 73);
     border: #440827 solid 2px;
 }
-.texto-inicial{
+.texto-1{
     width: 41rem;
     height: 24rem;
     font-family: var(--fonte-place);
