@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+html{
+    height: 100%;
+    width: 100%;
+}
 :root{
     --cor-principal: #DAD4B5;
     --fonte-place:"Poppins", sans-serif; 
@@ -49,10 +53,10 @@ main{
 }
 .texto{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     gap: 5rem;
-    margin-right: 3%;
+    margin: 1% 8% 0% 5%;
+    align-items: center;
 }
 .texto-2{
     display: flex;
@@ -145,10 +149,36 @@ footer{
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    margin: 4% 0% 0% 0%;
-    background-color: #ac7792;
+    margin: 1% 0% 0% 0%;
+    color: #DAD4B5;
 }
 a{
     text-decoration: none;
-    color: rgb(34, 39, 39);
+    color: rgb(255, 255, 255);
 }
+
+@media (min-width: 1500px ){
+    .texto-1{
+        width: 45rem;
+        height: 35rem;
+        margin-left: 2%;
+    }
+    .campo-resultado{
+        width: 40rem;
+        height: 35rem;}
+    .texto-2{
+            display: flex;
+            justify-content: space-between;
+            margin: 0% 6% 0% 0%;
+            align-items: center;
+        } 
+
+        footer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            margin: 5% 0% 0% 0%;
+            color: #DAD4B5;
+        }
+ }
