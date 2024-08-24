@@ -139,3 +139,32 @@ a{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+
+@media (min-width: 1900px ){
+    #campo-resultado{
+        width: 40rem;
+        height: 42rem;}
+
+    .texto-1{
+        width: 40rem;
+        height: 42rem;}
+    .imagem-texto{
+        width: 40rem;
+        height: 42rem;}
+    .texto{
+        gap: 6rem;
+        }
+    .texto-resultado{
+        gap: 6rem;
+        } 
+    .texto-aviso{
+            font-size: 1.2rem;
+            color: rgb(236, 187, 187);
+            margin: 0% 0% 0% 30%;
+    }
+    .place{
+        width: 23.5rem;
+        height: 20rem;
+        padding: 20% 0%;
+    } 
+}
