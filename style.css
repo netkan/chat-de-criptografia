@@ -15,9 +15,9 @@ img{
     height: 1%;
 }
 .place{
-    width: 16.5rem;
+    width: 17rem;
     height: 14rem;
-    padding: 3%;
+    padding: 8%;
 }
 header{
     margin: 1% 0% 0% 3%;
@@ -78,7 +78,7 @@ button:hover{
 }
 .texto-1{
     width: 30rem;
-    height: 24rem;
+    height: 26rem;
     font-family: var(--fonte-place);
     color: var(--cor-da-fonte);
     font-size: 1rem;
@@ -95,7 +95,7 @@ button:hover{
 }
 #campo-resultado{
     width: 30rem;
-    height: 24rem;
+    height: 26rem;
     font-family: var(--fonte-place);
     color: var(--cor-da-fonte);
     font-size: 1rem;
@@ -109,7 +109,7 @@ button:hover{
 }
 .imagem-texto{
     width: 28rem;
-    height: 24rem;
+    height: 26rem;
     border-radius: 0.8rem;
     font-family:  var(--fonte-place);
     color: var(--cor-da-fonte);
